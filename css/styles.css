@@ -1,0 +1,53 @@
+   /* Style de base pour le bouton */
+   .btn {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Effet d'agrandissement et de changement de couleur au survol */
+  .btn:hover {
+    transform: scale(1.05);
+    background-color: #f3f3f3; /* Couleur légèrement plus claire */
+    border-color: #d1d5db;
+  }
+  
+  .btn:hover svg {
+    transform: translateX(5px); /* L'icône se déplace légèrement vers la droite */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .btn:hover p {
+    color: #1f2937; /* Texte en couleur plus foncée */
+  }
+  
+  .btn_2 {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Effet d'agrandissement et de changement de couleur au survol */
+  .btn_2:hover {
+    transform: scale(1.05);
+    background-color:  #1f2937; /* Couleur légèrement plus claire */
+    border-color: #d1d5db;
+  }
+  
+  .btn_2:hover svg {
+    transform: translateX(5px); /* L'icône se déplace légèrement vers la droite */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .btn_2:hover p {
+    color:  white; /* Texte en couleur plus foncée */
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 5;
+    }
+    50% {
+      opacity: 0.3;
+    }
+  }
+  
+  .flex .anim {
+    animation: blink 1s infinite; /* Clignotement doux en boucle */
+  }
