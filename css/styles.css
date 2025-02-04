@@ -1,4 +1,15 @@
-   /* Style de base pour le bouton */
+.social-links svg{
+  transition: 0.2s linear;
+}
+.social-links svg:hover{
+  scale: 1.3;
+  color: black;
+  background-color: #1E3A8A;
+  filter: drop-shadow(0 0 10px #1E3A8A);
+}
+
+
+/* Style de base pour le bouton */
    .btn {
     transition: all 0.3s ease-in-out;
   }
@@ -51,3 +62,34 @@
   .flex .anim {
     animation: blink 1s infinite; /* Clignotement doux en boucle */
   }
+
+  .image {
+    overflow: hidden;
+    box-shadow: 0 0 30px #f3f3f3;
+  }
+
+  .image:hover{
+    animation: animate 1.5s ease-in-out infinite;
+}
+@keyframes animate {
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.05;
+    }
+    100%{
+        scale: 1;
+    }
+}
+
+.typewriter{
+  font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
+  font-weight: 600;
+}
+
+.typewriter-text{
+  color: #f3f3f3;
+  text-shadow: 0 0 10px #f3f3f3;
+}
+
