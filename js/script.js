@@ -14,8 +14,8 @@ window.addEventListener('scroll', function() {
 
 // Typewriter Effect
 const texts = [
-  "Formateur",
-  "Développeur FullStack",
+  "Formateur IT",
+  "Développeur Full-Stack",
   "Technicien spécialisé en maintenance logicielle"
 ]
 let speed  =100;
